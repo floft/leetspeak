@@ -21,3 +21,13 @@ Using
 Note that it will run slower the first time while it generates the .pickle
 files. Also note that I'm not at all fond of my coding style that I used back
 then. This was one of my first major Python projects.
+
+License
+-------
+The words lists are from */usr/share/dict*, which I believe is from,
+[aspell](ftp://ftp.gnu.org/gnu/aspell/dict/0index.html) under GPL2. I would say
+where *stopwords_en.txt* came from, but I think that's a combination of many
+sites and my own thoughts. As for slang, it's from [No
+Slang](http://www.noslang.com/dictionary/), and I don't see a license.  The
+*gutenberg_small.txt* file is obviously from Gutenberg.  All of my code, as
+always, is under the [ISC license](http://floft.net/uploads/isc-license.txt).
