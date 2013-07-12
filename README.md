@@ -18,9 +18,34 @@ Using
  1. Run: ``python3 leet.py --demo`` to test or ``python3 leet.py [-e] "Your Message"``
     to decode (by default) or encode a message.
 
-Note that it will run slower the first time while it generates the .pickle
-files. Also note that I'm not at all fond of my coding style that I used back
-then. This was one of my first major Python projects.
+Notes
+-----
+ * It will run slower the first time while it generates the .pickle files.
+ * This program decodes better than encodes since encoding just randomly choses
+   characters, which does not look at all like normal leet.
+ * The program ignores all punctuation. How does it know if that period is part
+   of the leet or is a period?
+ * I'm not fond of the coding style I used back then. This was one of my first
+   major Python projects.
+
+Example
+-------
+Some things work.
+
+     [garrett leetspeak]$ python3 leet.py -e "How are you doing today mother?"
+     )-(ω\_1_/ /\|2ə \j()/_/ [)¤ai/|/gee -l-¤l]/-\-/ /|/|{}-l-[-]€[z?
+
+     [garrett leetspeak]$ python3 leet.py ")-(ω\_1_/ /\|2ə \j()/_/ [)¤ai/|/gee -l-¤l]/-\-/ /|/|{}-l-[-]€[z?"
+     how are you doing today mother
+
+And some things don't. Note that Github was not a common word a few hundred
+years ago.
+
+     [garrett leetspeak]$ python3 leet.py -e "This is a test for Github."
+     '][']-[eyeš 3y35 /-\ +e$-1- |=0® (_+l†}-{yuu|3.
+
+     [garrett leetspeak]$ python3 leet.py "'][']-[eyeš 3y35 /-\ +e$-1- |=0® (_+l†}-{yuu|3."
+     this is a tehiubhig for
 
 License
 -------
