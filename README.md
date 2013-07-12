@@ -28,6 +28,8 @@ The words lists are from */usr/share/dict*, which I believe is from
 [aspell](ftp://ftp.gnu.org/gnu/aspell/dict/0index.html), under GPL2. I would
 say where *stopwords_en.txt* came from, but I think that's a combination of
 many sites and my own thoughts. As for slang, it's from [No
-Slang](http://www.noslang.com/dictionary/), and I don't see a license.  The
-*gutenberg_small.txt* file is obviously from Gutenberg.  All of my code, as
-always, is under the [ISC license](http://floft.net/uploads/isc-license.txt).
+Slang](http://www.noslang.com/dictionary/), and I don't see a license. The
+*gutenberg_small.txt* file is obviously from Gutenberg. The *phonetics.py* file
+is from [AdvaS Advanced Search](http://sourceforge.net/projects/advas/) and is
+GPL. All of my code, as always, is under the [ISC
+license](http://floft.net/uploads/isc-license.txt).
