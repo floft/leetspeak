@@ -37,4 +37,3 @@ nosetests.xml
 
 # Big files
 *.pickle
-gutenburg_small.txt

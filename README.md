@@ -12,9 +12,6 @@ one.
 Using
 -----
  1. Install python3.
- 1. Download
-    [gutenburg_small.txt](http://floft.net/uploads/gutenburg_small.txt) to
-    *data/*
  1. Run: ``python3 leet.py --demo`` to test or ``python3 leet.py [-e] "Your Message"``
     to decode (by default) or encode a message.
 
@@ -54,7 +51,8 @@ The words lists are from */usr/share/dict*, which I believe is from
 say where *stopwords_en.txt* came from, but I think that's a combination of
 many sites and my own thoughts. As for slang, it's from [No
 Slang](http://www.noslang.com/dictionary/), and I don't see a license. The
-*gutenberg_small.txt* file is obviously from Gutenberg. The *phonetics.py* file
-is from [AdvaS Advanced Search](http://sourceforge.net/projects/advas/) and is
-GPL. All of my code, as always, is under the [ISC
-license](http://floft.net/uploads/isc-license.txt).
+*gutenberg_small.txt* file is obviously from Gutenberg; although, I have since
+lost the script to generated it (hence why I just provide the file here). The
+*phonetics.py* file is from [AdvaS Advanced
+Search](http://sourceforge.net/projects/advas/) and is GPL. All of my code, as
+always, is under the [ISC license](http://floft.net/uploads/isc-license.txt).
