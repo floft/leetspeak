@@ -1,7 +1,7 @@
 leetspeak
 =========
 Years ago I started working on [Garot Bot
-2.0](http://floft.net/wiki/Garot_Bot.html). Well, that project was enormous and
+2.0](http://floft.net/wiki/Scripts/Archives/Garot_Bot.html). Well, that project was enormous and
 never completed. However, as part of the project I wanted to have a LeetSpeak
 to English translator. This multi-threaded Python 3 converter/translator
 deciphers your messages using probability of word usage taken from the [Project
