@@ -55,4 +55,4 @@ Slang](http://www.noslang.com/dictionary/), and I don't see a license. The
 lost the script to generated it (hence why I just provide the file here). The
 *phonetics.py* file is from [AdvaS Advanced
 Search](http://sourceforge.net/projects/advas/) and is GPL. All of my code, as
-always, is under the [ISC license](http://floft.net/uploads/isc-license.txt).
+always, is under the [ISC license](http://floft.net/files/isc-license.txt).
